@@ -12,5 +12,13 @@
     "plugin"
   ],
   "author": "James Kyle <me@thejameskyle.com>",
-  "license": "cc-by-4.0"
+  "license": "cc-by-4.0",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
 }
